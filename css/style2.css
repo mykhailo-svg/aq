@@ -218,14 +218,20 @@ a{
 
 .burger__content {
     padding:64px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 .burger__list__container {
+    flex: 1 1 auto;
 }
 .burger__list {
 }
 .burger__list__item {
 }
 .burger__list__button {
+    text-align: center;
+    margin:24px 0px;
 }
 ._button {
 }
